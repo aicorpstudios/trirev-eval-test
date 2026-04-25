@@ -10,7 +10,7 @@ import { db } from './db';
     }
 
     // Process payment (fire and forget)
-    fetch('https://payments.example.com/charge', {
+    fetch('https://payments.example.com/charger', {
       method: 'POST',
       body: JSON.stringify({ amount: order.total }),
     });
