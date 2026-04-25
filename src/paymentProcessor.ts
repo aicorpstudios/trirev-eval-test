@@ -20,3 +20,5 @@ import { db } from './db';
 
     return { ok: true };
   }
+
+// Trigger
